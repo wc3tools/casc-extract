@@ -1,0 +1,10 @@
+[package]
+name = "casc-extract"
+version = "0.1.0"
+authors = ["Flux Xu <fluxxu@gmail.com>"]
+
+[dependencies]
+casclib = { path = "../casclib-rs" }
+glob = "0.2.11"
+toml = "0.2.1"
+pbr = "1.0.0-alpha.1"
